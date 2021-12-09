@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+SQLAlchemy = "*"
+databases = "*"
+requests = "*"
+fastapi = "*"
+aiofiles = "*"
+python-multipart = "*"
+asyncpg = "*"
+pytest = "*"
+pytest-asyncio = "*"
+tensorflow = "*"
+tensorflow-hub = "*"
+opencv-python = "*"
+pillow = "*"
+matplotlib = "*"
+google-cloud-speech = "*"
+ffmpeg-python = "*"
+google-cloud-texttospeech = "*"
+pandas = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+
+[requires]
+python_version = "3.8"
